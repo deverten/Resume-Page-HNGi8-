@@ -238,8 +238,12 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
-ul {
-  list-style-type: none;
+
+/* ul {
+   list-style-type: none; 
+} */
+ul.links {
+    list-style-type: none;
 }
 .exp li{
     margin-top: 0.7em;
@@ -360,8 +364,8 @@ i {
     text-align: center;
 }  
  .skill-img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     
 }
 .skills{
@@ -389,7 +393,7 @@ form {
     text-align: left;
      background-color: #e2daeb;
      padding: 2em;
-     width: 50%;
+     width: 70%;
      margin: 1em auto;
     
 }
