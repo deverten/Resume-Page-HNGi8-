@@ -1,137 +1,167 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
-</head>
-<body>
-    <div class="container">
-        <nav class="nav-bar">
-            <div class="zuri" data-aos="fade-down">
-                <img class="logo-img"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAn1BMVEUArv///////f/8//8ArvwAr//+//0Aq//1//8AsP0AsPoApe3P+/9Htuns//8AovBRwu4PqvQWq/Da+f+28Pvd/P1Pve9BtvQIqf///vnv//8AsPcAtP////YAougAofAVqeiv8//j9/+6+P+a7v0orecKouLN+f8hsPBKte4AtPPX//8nseOEy+xYue85uvNJxe9Ovuj//OpHt+RHs/MMdU7PAAAE5UlEQVR4nO2dC1PbOBRGZVvvvLBTg41JgW2zONuWPtj//9tWcgIN4OukmYnWTr4DMzDgKD65V8pImbmXMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+yP+7xs4GGGUYEpUnRdVlqX+ujYsE5wLofZ6Li5YFfrF4jyrb9xziw78zXHD2l8F62/8xr1IuzHMsPCGgqV32UylXYzuMndhkbbeWmPITOcAG7KUG2GdaFjD2f18/td8B59qd2/td+b+arkZfd41hGP8nbl8Fja04UMky2gRdSAX+VIZIrm8IWMfP3QNsEGvlDUsdAzN3w/lYpGUSSd53WXo7toZdo/g0StWmUIEnofOMEripPvFj6e1qojkMkqtDXeTrFhti9DvO2L0EMcuETtvTfoYcmoEt4yy0V6GE+aylFEDHYvROJI7g5hnSnAyTd3Mmu01DyduFKMCrzTOMIYhDGEIwyMDQxjCEIbHB4ana5i4jfHzjqN0ewtu2w2VM+dir71FvwxjncQLudm6ymld8H8IQ1O5HeLbHXAzhpT9NZRxWUZxksQNUZwvGbMFbXjjDONtem+oIz3Vib7Wa6IvXznnhKGwLlNH94neZhPE/hpG0bfJ4+rx4nLN42XanDe1odw6o3j6/XKbJ93Y9diwjC4K5g9gGgTzJ9rUQY0/4eXs9Zn37TTpeQydITPCWNXAreWcEWdkQqxPXtQ2zjDpu+EPVrlFxMG58Yf6Vqj2jyaE/6/zNJuLuf8x6r1h5GJIBW0PxGwaxdG7MXtnyA8/9oNhUM7a8PCPUIZiiBjSDMXw9GN4+obIUhoYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIaIIQ0Mg4IsPQgYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIaIIQ0Mg4IsPQgYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIaIIQ0Mg4IsPQgYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIanHMPYGfraLbxBGKMKxtrr06imJvvzpZsHzK7f2vXNUOofxthqU6BGKadgyIiuC++/+tNt7w0TfVGol7LUillrDWuv9eX8lHpTrUf13zCOLosmdg0+QpseCe8xQinfGGE7S3n/szTSP6vqpdsDt77OFSM6B/gCUm8Xpdvrd8tMzwx18m3y82l1tWYyuZr9rm32BuOS2Nj06hVL3XdD+aupt/dcc0+Pl27VoZYaxW7q2b1+XXOv74a6jDa1D9fC+ZKofMmauvqWD7D25Wt21i89fcMhVmiF4QswhOHRgSEMYQjD4wPDUzCUMop33Fue0QP8mSEzxD7zaKjZuJQ7mpJFcZ5Z4qitMeR7Gq6UKKrQneVENvbt/7q7A8q8rkRKdPI0au8YPnFT0BvNI2Hu5r41QGeayjJPC7eTbx/B74DVfvvDJ2MUD91ZTnycx1InsZSJ+/Lf735JpM5T5c+jWuHK/ccZUg///YuecN9oL3QPy9E8WvzSWnZQlvnXmuwWy313hNmHrgE2w+h/FSuECBxDe/cpn15Pd/BQV6wgFLl/I5l93jWE48sVtwV17no0lKqzKkvTrJPULfMV0aSEK2YE6378mrvspiK6Ch+VfZ+Sesf/o+cabmtoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgi/8AIGKne7Rb7XIAAAAASUVORK5CYII=" alt="">
-                <a href="https://training.zuri.team/">Zuri.team</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+     <!-- font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+     <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img class="logo"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAn1BMVEUArv///////f/8//8ArvwAr//+//0Aq//1//8AsP0AsPoApe3P+/9Htuns//8AovBRwu4PqvQWq/Da+f+28Pvd/P1Pve9BtvQIqf///vnv//8AsPcAtP////YAougAofAVqeiv8//j9/+6+P+a7v0orecKouLN+f8hsPBKte4AtPPX//8nseOEy+xYue85uvNJxe9Ovuj//OpHt+RHs/MMdU7PAAAE5UlEQVR4nO2dC1PbOBRGZVvvvLBTg41JgW2zONuWPtj//9tWcgIN4OukmYnWTr4DMzDgKD65V8pImbmXMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+yP+7xs4GGGUYEpUnRdVlqX+ujYsE5wLofZ6Li5YFfrF4jyrb9xziw78zXHD2l8F62/8xr1IuzHMsPCGgqV32UylXYzuMndhkbbeWmPITOcAG7KUG2GdaFjD2f18/td8B59qd2/td+b+arkZfd41hGP8nbl8Fja04UMky2gRdSAX+VIZIrm8IWMfP3QNsEGvlDUsdAzN3w/lYpGUSSd53WXo7toZdo/g0StWmUIEnofOMEripPvFj6e1qojkMkqtDXeTrFhti9DvO2L0EMcuETtvTfoYcmoEt4yy0V6GE+aylFEDHYvROJI7g5hnSnAyTd3Mmu01DyduFKMCrzTOMIYhDGEIwyMDQxjCEIbHB4ana5i4jfHzjqN0ewtu2w2VM+dir71FvwxjncQLudm6ymld8H8IQ1O5HeLbHXAzhpT9NZRxWUZxksQNUZwvGbMFbXjjDONtem+oIz3Vib7Wa6IvXznnhKGwLlNH94neZhPE/hpG0bfJ4+rx4nLN42XanDe1odw6o3j6/XKbJ93Y9diwjC4K5g9gGgTzJ9rUQY0/4eXs9Zn37TTpeQydITPCWNXAreWcEWdkQqxPXtQ2zjDpu+EPVrlFxMG58Yf6Vqj2jyaE/6/zNJuLuf8x6r1h5GJIBW0PxGwaxdG7MXtnyA8/9oNhUM7a8PCPUIZiiBjSDMXw9GN4+obIUhoYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIaIIQ0Mg4IsPQgYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIaIIQ0Mg4IsPQgYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIaIIQ0Mg4IsPQgYBuWsDTEPaYZiiBjSwDAoyNKDgGFQztoQ85BmKIanHMPYGfraLbxBGKMKxtrr06imJvvzpZsHzK7f2vXNUOofxthqU6BGKadgyIiuC++/+tNt7w0TfVGol7LUillrDWuv9eX8lHpTrUf13zCOLosmdg0+QpseCe8xQinfGGE7S3n/szTSP6vqpdsDt77OFSM6B/gCUm8Xpdvrd8tMzwx18m3y82l1tWYyuZr9rm32BuOS2Nj06hVL3XdD+aupt/dcc0+Pl27VoZYaxW7q2b1+XXOv74a6jDa1D9fC+ZKofMmauvqWD7D25Wt21i89fcMhVmiF4QswhOHRgSEMYQjD4wPDUzCUMop33Fue0QP8mSEzxD7zaKjZuJQ7mpJFcZ5Z4qitMeR7Gq6UKKrQneVENvbt/7q7A8q8rkRKdPI0au8YPnFT0BvNI2Hu5r41QGeayjJPC7eTbx/B74DVfvvDJ2MUD91ZTnycx1InsZSJ+/Lf735JpM5T5c+jWuHK/ccZUg///YuecN9oL3QPy9E8WvzSWnZQlvnXmuwWy313hNmHrgE2w+h/FSuECBxDe/cpn15Pd/BQV6wgFLl/I5l93jWE48sVtwV17no0lKqzKkvTrJPULfMV0aSEK2YE6378mrvspiK6Ch+VfZ+Sesf/o+cabmtoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgi/8AIGKne7Rb7XIAAAAASUVORK5CYII=" alt="">
+            <!-- <img src="./logo.svg" class="logo" alt="logo" /> -->
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#skill" class="scroll-link">skill</a>
+              </li>
+              <li>
+                <a href="#resume" class="scroll-link">resume</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+            <div class="content-1">
+                <img src="dever.jpg" class="pic" alt="">
             </div>
-            <h2 id="mo"></h2>
-            
-            <!-- <img class="logo-img" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fthezuriteam&psig=AOvVaw0ajPm-qAWXJcdaZODU9AwI&ust=1629357402193000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjarbuDuvICFQAAAAAdAAAAABAI" alt=""> -->
-        </nav>    
-        <div class="contents">
-  
-            <div class="left-side" data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
-                <div class="contact">
-                    <img src="./IMG_0873.jpg" class="img" alt="">
-                <h3 class="left text">CONTACT</h3>
-               <div class="icon"><i class="fas fa-phone-square-alt"></i><p>08105283475</p></div> 
-                <div class="icon"><i class="fas fa-envelope-square"></i><a href="">mohammedoustaz@gmail.com</a></div>
-                <div class="icon"><i class="fas fa-laptop-code"></i><a href="">github.com/deverten</a></div>
-                </div>
-                <hr>
-                <div class="contact">
-                    <h3 class="text">EDUCATION</h3>
-                    <h4 class="edu title">B.Eng Agric. Engineering</h4>
-                    <p>Federal University of Technology Minna</p>
-                    <p>2014 - 2019</p>
-                    <h4 class="edu title">SSCE</h4>
-                    <P>Niomco Staff Secondary School, Itakpe</P>
-                    <p>2008 -2014</p>
-                </div>
-                <hr>
-                <div class="contact">
-                    <h3 class="text">SKILLS</h3>
-                    <h4 class="title">PROGRAMMING</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>css</li>
-                        <li>Javascript</li>
-                        <li>ReactJs</li>
-                    </ul>
-                    
-                    <h4 class="title">PROFESSIONAL</h4>
-                    <ul>
-                        <li>Problem Solving</li>
-                        <li>Good Communication</li>
-                        <li>Time Management</li>
-                        <li>Quick Learner</li>
-                    </ul>
-                </div>
-                <hr>
-                
+            <div class="content-2">
+                <h2>I'm Umar</h2> 
+                 <h4>FrontEnd Developer</h4>
+                <button class="send"><a  href="#contact">Meet Me</a></button>
             </div>
-            <div class="right-side">
-                <div class="right my-name" data-aos="fade-left">
-                    <h2 class="">UMAR MUHAMMED</h2>
-                    <p class="title">FRONT-END DEVELOPER</p>
-                   
-                    <h4 class="profile">PROFILE</h4>
-                    <P>I am a Front End Developer based in Nigeria,i can work
-                        with clients around the globe to turn their business ideas to a 
-                        reality. 
-                    </P>
-                    
+          
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h3 class="name">Hi! I'm Umar Muhammed.</h3>
+            <p>I am a Nigerian based Frontend developer. I enjoy developing user friendly interfaces for websites, and
+                I love to solve human related problems using softtare
+            </p>
+            <div class="icon"><i class="fas fa-phone-square-alt"></i><p>08105283475</p></div> 
+            <div class="icon"><i class="fas fa-envelope-square"></i><a href="">mohammedoustaz@gmail.com</a></div>
+            <div class="icon"><i class="fas fa-laptop-code"></i><a href="">github.com/deverten</a></div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="skill" class="section">
+      <!-- <div class="title"> -->
+         <div class="skills-section" id="skills-section">
+            <h2>skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <img src="/html.png" alt="" class="skill-img">
+                </div> 
+                <div class="skill">
+                    <img src="/css.jpg" alt="" class="skill-img">
                 </div>
-               <div class="right" data-aos="zoom-in-up">
-                <h3 class="text">EXPERIENCE</h3>
-                <P class="title">FRONT-END INTERN</P>
-                <P>ZURI INTERNSHIP | MAR 2021 - JULY 2021</P>
-                <ul>
-                    <li>Developed exceptional UI designs made by the Design team, some of which include Google Website cloned an online payment page.</li>
-                    <li>Collaborated with the Backend team to incorporate APIs using Javascript.</li>
-                    <li>Leveraged the use of a version control tool(Github) in contributing to team projects, in the capacity of a Frontend developer. an example is the 9japoll web app which we hope to implement during the 2023 elections in Nigeria.
-                    </li>
-                    <li>Learned to use the React Framework, and worked on personal projects: A blog website, An admin panel (dashboard) using the React framework.</li>
-                    
-                </ul>
+                <div class="skill">
+                    <img src="/javascript.png" alt="" class="skill-img">
+                </div>
+                <div class="skill">
+                    <img src="/react.png" alt="" class="skill-img">
+                </div> 
+                <div class="skill">
+                    <img src="/git.png" alt="" class="skill-img">
+                </div>
+            </div>   
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="resume" class="section">
+      <div class="title">
+        <h2>resume</span></h2>
+        <div class="right" data-aos="zoom-in-up">
+            <P class="intern">FRONT-END INTERN</P>
+            <P>ZURI INTERNSHIP | MAR 2021 - JULY 2021</P>
+            <ul class="exp">
+                <li>Developed exceptional UI designs made by the Design team, some of which include Google Website cloned an online payment page.</li>
+                <li>Collaborated with the Backend team to incorporate APIs using Javascript.</li>
+                <li>Leveraged the use of a version control tool(Github) in contributing to team projects, in the capacity of a Frontend developer. an example is the 9japoll web app which we hope to implement during the 2023 elections in Nigeria.
+                </li>
+                <li>Learned to use the React Framework, and worked on personal projects: A blog website, An admin panel (dashboard) using the React framework.</li>
                 
-               </div>
-               <div class="right" data-aos="flip-left"
+            </ul> 
+        </div>
+
+      
+      <div class="right" data-aos="flip-left"
                data-aos-easing="ease-out-cubic"
                data-aos-duration="2000">
-                <p class="title">HR INTERN</p>
-                <p>CASUBI NIG ENTERPRISES | JAN 2020 - NOV 2020</p>
-                <ul>
-                    <li>Had Strong prospecting, qualifying, and negotiating skills; consultative sales approach with a product-centric mindset. </li>
-                    <li>Worked with the sales and digital marketing team to define and execute our sales strategy at Casubi Nigeria Ltd.</li>
-                    <li>Took the lead on major enterprise relationships, both existing and new, with financial institutions, large technology, and industry platforms.</li>
-                
+                <p class="intern">FREELANCE/PERSONAL PROJECTS</p>
+                <P>It may interest you to know i've completed a few interesting projects..</P>
+                <ul class="exp">
+                    <li>Built a chrome browser extension. <a class="red" href="https://github.com/deverten/RandomQuoteExtension">Github Link</a> </li>
+                    <li>Built an Admin Dashboard panel with charts. <a class="red" href="https://github.com/deverten/React-Admin-Panel-Dashboard">Github Link</a></li>
+                    <li>Developed a movie rating app with pagination inclusive. <a class="red" href="https://github.com/deverten/movie_app">Github Link</a></li>
                 </ul>
-               
-               </div>
-               <div class="right" data-aos="fade-up"
-               data-aos-anchor-placement="top-center">
-                <p class="title">ENGINEERING INTERN</p>
-                <p>MACKS FARM NIG. LTD | JUNE 2018 - DEC 2018 </p>
-                <ul>
-                    <li> I Performed the role of a bridge between farmers and scientific research institutes where I used my networking skills to seek solutions to the problems in farming.
-                    </li>
-                    <li>Helped in the distribution of fertilizers to local farmers within the Osara community.
-                    </li>
-                    <li>Through extensive research, I was able to suggest suitable crops that could thrive well in the greenhouse project. Also assisted in planting the crops that were imported from India.</li>
-                </ul>
-               </div>
-               
-                
-                
-
-
+                </div>
+                </div>
+    </section>
+    <section id="contact" class="section">
+        <h2>contact</h2>
+        <p>For any enquiries, Please kindly get in touch with us by completing the form below.</p>
+        <form action="">
+            <div class="msg">
+            <label for="">Name</label>
+            <input type="text">
             </div>
+            <div class="msg">
+                <label for="">Email</label>
+                <input type="email"> 
+            </div>
+            <div class="msg">
+                <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button class="send">Send</button>
             
-           
-        </div>
-        
-    </div>
+        </form>
+        </form>
+        </form>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; 
+        <span id="date"></span>. Umar 
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- javascript -->
     <script src="index.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  
-</body>
+  </body>
 </html>
